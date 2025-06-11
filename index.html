@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English Learning Media</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    #back-to-top-btn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1056;
+      border: none;
+      outline: none;
+      background-color: #0d6efd;
+      color: white;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      transition: opacity 0.4s, transform 0.4s;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    #back-to-top-btn.show {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="proyek.html">
+      <img src="/img/SMKN2.png" alt="Logo SMKN 2 Banjarmasin" height="40" class="me-2">English Learning Media</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="proyek.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Material</a></li>
+        <li class="nav-item"><a class="nav-link" href="exercise.html">Exercise</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="bg-light text-center py-5">
+  <div class="container" data-aos="fade-up">
+    <h1 class="display-5 fw-bold">Welcome To English Learning Media!</h1>
+    <p class="lead">Learning English becomes easier and more fun. Let's start now!</p>
+    <a href="#materi" class="btn btn-primary btn-lg">Start Learn</a>
+  </div>
+</section>
+
+<section class="py-5" id="materi">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="top-center">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Learning Objectives</h5>
+            <p class="card-text">See the learning objectives and outcomes for this media.</p>
+            <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#objectivesModal">
+              View Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Material</h5>
+            <p class="card-text">Contains all the learning materials that will be covered here.</p>
+            <a href="material.html" class="btn btn-outline-primary mt-auto">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-center">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Exercise</h5>
+            <p class="card-text">Test your skills with interactive and engaging questions.</p>
+            <a href="exercise.html" class="btn btn-outline-primary mt-auto">Start Training</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Contact Us</h5>
+            <p class="card-text">Have questions or feedback? Contact us for more information.</p>
+            <a href="contact.html" class="btn btn-outline-primary mt-auto">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#" id="back-to-top-btn" title="Kembali ke atas">↑</a>
+
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <h5>About Us</h5>
+        <p>English Learning Media is a website-based learning media platform for English from SMKN 2 Banjarmasin that aims to help students learn in an interactive and fun way.</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <h5>Contact</h5>
+        <a href="https://www.instagram.com/avnns_/" target="_blank" class="text-white text-decoration-none">
+          <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" class="me-2">
+        </a>
+      </div>
+    </div>
+    <hr class="border-light my-3">
+    <p class="text-center mb-0">&copy; 2025 English Learning Media. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<div class="modal fade" id="objectivesModal" tabindex="-1" aria-labelledby="objectivesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="objectivesModalLabel">Learning Objectives And Outcomes</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+            <li>Pada akhir fase E, peserta didik menggunakan teks lisan, tulisan, dan visual dalam berbagai jenis teks untuk berkomunikasi sesuai dengan situasi, tujuan, dan pemirsa/pembacanya. Jenis teks sederhana menjadi rujukan utama dalam mempelajari bahasa inggris. Peserta didik menggunakan bahasa inggris untuk menyampaikan keinginan/perasaan dan berdiskusi mengenai topik yang dekat dengan keseharian.
+                Mereka membaca teks tulisan untuk mempelajari sesuatu/mendapatkan informasi. Keterampilan inferensi tersirat ketika memahami informasi dalam bahasa inggris juga mulai berkembang. Peserta didik memahami kosakata akrab dan baru yang sering di gunakan sehari-hari dengan bantuan gambar/ilustrasi, dukungan dari isyarat visual, atau petunjuk konteks. 
+                Peserta didik membaca dan menanggapi teks sederhana dan familiar dalam bentuk teks cetak atau digital, termasuk teks visual multimoda, atau interaktif. Peserta didik menemukan informasi dasar dalam sebuah kalimat dan menjelaskan topik dalam teks yang di baca atau di lihat.</li>
+
+            <li>Peserta didik dapat mengomunikasikan hal-hal yang berkaitan dengan kegiatan sehari-hari dengan baik.</li>
+        </ul>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: false, 
+    mirror: true,
+  });
+
+  const backToTopButton = document.getElementById("back-to-top-btn");
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      backToTopButton.classList.add("show");
+    } else {
+      backToTopButton.classList.remove("show");
+    }
+  };
+
+  backToTopButton.onclick = function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+</script>
+</body>
+</html>
